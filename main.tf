@@ -11,7 +11,7 @@
 // limitations under the License.
 
 module "resource_names" {
-  source = "git::https://github.com/launchbynttdata/tf-launch-module_library-resource_name.git?ref=1.0.0"
+  source = "git::https://github.com/launchbynttdata/tf-launch-module_library-resource_name.git?ref=1.0.1"
 
   for_each = var.resource_names_map
 
@@ -22,6 +22,7 @@ module "resource_names" {
   cloud_resource_type     = each.value.name
   instance_env            = var.environment_number
   maximum_length          = each.value.max_length
+  use_azure_region_abbr   = true
 }
 
 module "resource_group" {
