@@ -119,7 +119,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_resource_names"></a> [resource\_names](#module\_resource\_names) | git::https://github.com/launchbynttdata/tf-launch-module_library-resource_name.git | 1.0.0 |
+| <a name="module_resource_names"></a> [resource\_names](#module\_resource\_names) | git::https://github.com/launchbynttdata/tf-launch-module_library-resource_name.git | 1.0.1 |
 | <a name="module_resource_group"></a> [resource\_group](#module\_resource\_group) | git::https://github.com/launchbynttdata/tf-azurerm-module_primitive-resource_group.git | 1.0.0 |
 | <a name="module_private_dns_zone"></a> [private\_dns\_zone](#module\_private\_dns\_zone) | git::https://github.com/launchbynttdata/tf-azurerm-module_primitive-private_dns_zone.git | 1.0.0 |
 | <a name="module_vnet_links"></a> [vnet\_links](#module\_vnet\_links) | git::https://github.com/launchbynttdata/tf-azurerm-module_primitive-private_dns_vnet_link.git | 1.0.0 |
